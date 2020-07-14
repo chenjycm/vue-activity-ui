@@ -1,6 +1,5 @@
 // 导入单个组件
-import actMarquee from './act-marquee/actMarquee.vue'
-
+import actMarquee from './act-marquee'
 // 以数组的结构保存组件，便于遍历
 const components = [
     actMarquee,
@@ -24,5 +23,5 @@ export default {
     // 导出的对象必须具备一个 install 方法
     install,
     // 组件列表
-    ...components
+    actMarquee
 }

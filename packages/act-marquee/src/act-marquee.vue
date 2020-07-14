@@ -15,7 +15,7 @@ export default {
     }
 }
 </script>
-<style type="text/css" scoped> 
+<style lang="scss" scoped> 
 .act-marquee{
     color: red;
 }

@@ -1,7 +1,6 @@
-import actMarquee from './actMarquee.vue'
+import actMarquee from './src/act-marquee.vue'
 
-let _actMarquee = {}
-_actMarquee.install = function (Vue){
+actMarquee.install = function (Vue){
     Vue.component(actMarquee.name, actMarquee)
 }
 

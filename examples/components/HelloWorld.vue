@@ -1,13 +1,6 @@
 <template>
   <div class="hello">
-      <little-page>
-            <little-page-item color="#d49898">
-                <span>page1</span>
-            </little-page-item>
-            <little-page-item color="#aaf7f4">
-                <span>page2</span>
-            </little-page-item>
-      </little-page>
+      <act-marquee></act-marquee>
   </div>
 </template>
 <script>
